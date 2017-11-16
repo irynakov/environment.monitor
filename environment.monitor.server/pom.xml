@@ -64,6 +64,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>net.sf.jasperreports</groupId>
+            <artifactId>jasperreports</artifactId>
+            <version>6.4.0</version>
+        </dependency>
+
 
         <!-- Module Dependencies -->
         <dependency>
@@ -71,6 +77,7 @@
             <artifactId>environment.monitor.runner</artifactId>
             <version>${project.version}</version>
         </dependency>
+
 
     </dependencies>
 
